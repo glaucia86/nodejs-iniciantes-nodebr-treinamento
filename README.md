@@ -46,7 +46,7 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 - **Módulo 03: Introdução a Desenvolvimento de Testes Automatizados**
 
   - [Aula 3.1 - Introdução a desenvolvimento de testes automatizados em Javascript]()
-  - [Aula 3.2 - ]()
+  - [Aula 3.2 - Ambiente e configuração do ciclo de testes](http://bit.ly/2RwpRTK)
 
 * **Módulo 04: Node.js Além da Web - Criando Ferramentas de Linha de Commando**
 
