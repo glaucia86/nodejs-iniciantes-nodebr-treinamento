@@ -32,54 +32,63 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
   - :white_check_mark: [Aula 1.3 - Introdução a Promises]()
   - :white_check_mark: [Aula 1.4 - Refatorando Callbacks para Promises](https://bit.ly/2Pgv4cj)
   - :white_check_mark: [Aula 1.5 - Introdução a resolução de Promises com async/await]()
-  - :white_check_mark: [Aula 1.6 - Resolução de promises com Async/Await]()
-  - :white_check_mark: [Aula 1.7 - Trabalhando com Eventos com a classe EventEmitter]()
+  - :white_check_mark: [Aula 1.6 - Resolução de promises com Async/Await](http://bit.ly/2W8lb5o)
+  - :white_check_mark: [Aula 1.7 - Trabalhando com Eventos com a classe EventEmitter](http://bit.ly/2AQ25Ys)
 
 - **Módulo 02: Manipulação de Listas**
 
   - :white_check_mark:[Aula 2.1 - Introdução ao Capítulo]()
-  - :white_check_mark:[Aula 2.2 - Manipulando listas com For/ForIn/ForOf]()
-  - [Aula 2.3 - Criando nosso proprio Array.Map]()
-  - [Aula 2.4 - Criando nosso proprio Array.Filter]()
-  - [Aula 2.5 - Criando nosso proprio Array.Reduce]()
+  - :white_check_mark:[Aula 2.2 - Manipulando listas com For/ForIn/ForOf](http://bit.ly/2DgKnyW)
+  - :white_check_mark:[Aula 2.3 - Criando nosso próprio Array.Map](http://bit.ly/2CtqIKx)
+  - :white_check_mark:[Aula 2.4 - Criando nosso próprio Array.Filter](http://bit.ly/2QV5quH)
+  - :white_check_mark:[Aula 2.5 - Criando nosso próprio Array.Reduce](http://bit.ly/2AQlAQO)
 
 - **Módulo 03: Introdução a Desenvolvimento de Testes Automatizados**
 
-  - [Aula 3.1 - ]()
+  - [Aula 3.1 - Introdução a desenvolvimento de testes automatizados em Javascript]()
+  - [Aula 3.2 - ]()
 
-- **Módulo 04: Node.js Além da Web - Criando Ferramentas de Linha de Commando**
+* **Módulo 04: Node.js Além da Web - Criando Ferramentas de Linha de Commando**
 
-  - [Aula 4.1 - ]()
+  - [Aula 4.1 - Introdução ao Capítulo]()
+  - [Aula 4.2 - Manipulando arquivos - READ]()
+  - [Aula 4.3 - Manipulando arquivos - CREATE]()
+  - [Aula 4.4 - Manipulando arquivos - DELETE]()
+  - [Aula 4.5 - Manipulando arquivos - UPDATE]()
+  - [Aula 4.6 - Criando ferramentas de linha de comando]()
 
-- **Módulo 05: Banco de Dados - Nosso Projeto Multi-Banco de Dados**
+* **Módulo 05: Banco de Dados - Nosso Projeto Multi-Banco de Dados**
 
-  - [Aula 5.1 - ]()
+  - [Aula 5.1 - Criando projetos multi-banco de dados]()
+  - [Aula 5.2 - Trabalhando com padrão Strategy para Multi DataSources]()
+  - [Aula 5.3 - Design Patterns - Strategy]()
+  - [Aula 5.4 - Demonstração multi DataSources com Strategy Design Pattern]()
 
-- **Módulo 06: Introdução ao Postgres e Banco de Dados Relacionais**
+* **Módulo 06: Introdução ao Postgres e Banco de Dados Relacionais**
 
   - [Aula 6.1 - ]()
 
-- **Módulo 07: MongoDb e Bancos Não-Relacionais (NoSQL)**
+* **Módulo 07: MongoDb e Bancos Não-Relacionais (NoSQL)**
 
   - [Aula 7.1 - ]()
 
-- **Módulo 08: Node.js e Web Services - Criando Serviços Profissionais com Hapi.js**
+* **Módulo 08: Node.js e Web Services - Criando Serviços Profissionais com Hapi.js**
 
   - [Aula 8.1 - ]()
 
-- **Módulo 09: Documentação de Serviços com Swagger**
+* **Módulo 09: Documentação de Serviços com Swagger**
 
   - [Aula 9.1 - ]()
 
-- **Módulo 10: Autenticação com Json Web Token**
+* **Módulo 10: Autenticação com Json Web Token**
 
   - [Aula 10.1 - ]()
 
-- **Módulo 11: Publicação de Serviços na Web**
+* **Módulo 11: Publicação de Serviços na Web**
 
   - [Aula 11.1 - ]()
 
-- **Módulo 12: Próximos Passos**
+* **Módulo 12: Próximos Passos**
   - [Aula 12.1 - ]()
 
 **Documentação em Desenvolvimento**
