@@ -5,7 +5,7 @@
  * Author: Glaucia Lemos
  */
 
-console.log("Olá Pessoal!");
+console.log('Olá Pessoal!');
 const a = 3;
 const b = 2;
 
