@@ -1,10 +1,8 @@
 /**
- *
  * File: index.js
  * Description: Demonstração de como fazer uso de Async & Await em funções
  * Date: 12/02/2018
  * Author: Glaucia Lemos
- *
  */
 
 /**
