@@ -4,13 +4,13 @@
   "description": "Projeto relacionado ao treinamento de Node.js",
   "main": "index.js",
   "scripts": {
-    "dev": "",
+    "dev": "node index.js",
     "lint": "eslint ./aulas-node --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glaucia86/nodejs-iniciantes-nodebr-treinamento.git"
+    "url": "https://github.com/glaucia86/nodejs-iniciantes-nodebr-treinamento.git"
   },
   "author": "Glaucia Lemos",
   "license": "MIT",
