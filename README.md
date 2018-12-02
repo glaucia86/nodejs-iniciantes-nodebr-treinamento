@@ -33,37 +33,37 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
     * [Aula 1.7 - Trabalhando com Eventos com a classe EventEmitter]()
 
 - **Módulo 02: Manipulação de Listas**
-    * [Aula 01 - ]()
+    * [Aula 2.1 - ]()
 
 - **Módulo 03: Introdução a Desenvolvimento de Testes Automatizados**
-    * [Aula 01 - ]()
+    * [Aula 3.1 - ]()
 
 - **Módulo 04: Node.js Além da Web - Criando Ferramentas de Linha de Commando**
-    * [Aula 01 - ]()
+    * [Aula 4.1 - ]()
 
 - **Módulo 05: Banco de Dados - Nosso Projeto Multi-Banco de Dados**
-    * [Aula 01 - ]()
+    * [Aula 5.1 - ]()
 
 - **Módulo 06: Introdução ao Postgres e Banco de Dados Relacionais**
-    * [Aula 01 - ]()
+    * [Aula 6.1 - ]()
 
 - **Módulo 07: MongoDb e Bancos Não-Relacionais (NoSQL)**
-    * [Aula 01 - ]()
+    * [Aula 7.1 - ]()
 
 - **Módulo 08: Node.js e Web Services - Criando Serviços Profissionais com Hapi.js**
-    * [Aula 01 - ]()
+    * [Aula 8.1 - ]()
 
 - **Módulo 09: Documentação de Serviços com Swagger**
-    * [Aula 01 - ]()
+    * [Aula 9.1 - ]()
 
 - **Módulo 10: Autenticação com Json Web Token**
-    * [Aula 01 - ]()
+    * [Aula 10.1 - ]()
 
 - **Módulo 11: Publicação de Serviços na Web**
-    * [Aula 01 - ]()
+    * [Aula 11.1 - ]()
 
-- **Módulo 01: Próximos Passos**
-    * [Aula 01 - ]()
+- **Módulo 12: Próximos Passos**
+    * [Aula 12.1 - ]()
 
 
 
