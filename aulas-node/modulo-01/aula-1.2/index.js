@@ -64,7 +64,3 @@ obterUsuario((error, usuario) => {
         });
     });
 });
-
-
-// const telefone = obterTelefone(usuario.id);
-// console.log("Telefone", usuario);
