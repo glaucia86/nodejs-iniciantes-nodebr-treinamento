@@ -1,4 +1,4 @@
-# Node.js para Iniciantes by NodeBr
+# Curso & Treinamento: Node.js para Iniciantes by NodeBr
 
 ![alt_text](https://i.imgsafe.org/42/42ffeb4e53.png)
 
