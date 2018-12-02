@@ -17,11 +17,11 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 
 - **Módulo 00: Introdução ao Curso**
     * :white_check_mark: [Aula 0.1 - Introdução ao Curso e Objetivos]()
-    * :white_check_mark: [Aula 0.1 - Tópicos abordados - O que aprenderei?]()
-    * :white_check_mark: [Aula 0.1 - Instalação e Configuração]()
-    * :white_check_mark: [Aula 0.1 - Introdução ao Node.js]()
-    * :white_check_mark: [Aula 0.1 - Entendendo o Event Loop]()
-    * :white_check_mark: [Aula 0.1 - Conhecendo o gerenciador de pacotes NPM]()
+    * :white_check_mark: [Aula 0.2 - Tópicos abordados - O que aprenderei?]()
+    * :white_check_mark: [Aula 0.3 - Instalação e Configuração]()
+    * :white_check_mark: [Aula 0.4 - Introdução ao Node.js]()
+    * :white_check_mark: [Aula 0.5 - Entendendo o Event Loop]()
+    * :white_check_mark: [Aula 0.6 - Conhecendo o gerenciador de pacotes NPM]()
 
 - **Módulo 01: Sincronia de Funções Javascript**
     * [Aula 01 - ]()
