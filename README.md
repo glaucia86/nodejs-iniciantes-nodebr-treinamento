@@ -61,5 +61,9 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 
 
 
+<<<<<<< HEAD
 
 
+=======
+**Documentação em Desenvolvimento**
+>>>>>>> 478ea2c72a3479af66b87da4ea852bc8fc06e91a
