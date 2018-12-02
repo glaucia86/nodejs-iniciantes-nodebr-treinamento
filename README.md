@@ -24,13 +24,13 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
     * :white_check_mark: [Aula 0.6 - Conhecendo o gerenciador de pacotes NPM](https://bit.ly/2AGYbjN)
 
 - **Módulo 01: Sincronia de Funções Javascript**
-    * [Aula 1.1 - Entendendo o ciclo de vida de aplicações Javascript]()
-    * [Aula 1.2 - Trabalhando com Callbacks]()
-    * [Aula 1.3 - Introdução a Promises]()
-    * [Aula 1.4 - Refatorando Callbacks para Promises]()
-    * [Aula 1.5 - Introdução a resolução de Promises com async/await]()
-    * [Aula 1.6 - Resolução de promises com Async/Await]()
-    * [Aula 1.7 - Trabalhando com Eventos com a classe EventEmitter]()
+    * :white_check_mark: [Aula 1.1 - Entendendo o ciclo de vida de aplicações Javascript]()
+    * :white_check_mark: [Aula 1.2 - Trabalhando com Callbacks]()
+    * :white_check_mark: [Aula 1.3 - Introdução a Promises]()
+    * :white_check_mark: [Aula 1.4 - Refatorando Callbacks para Promises]()
+    * :white_check_mark: [Aula 1.5 - Introdução a resolução de Promises com async/await]()
+    * :white_check_mark: [Aula 1.6 - Resolução de promises com Async/Await]()
+    * :white_check_mark: [Aula 1.7 - Trabalhando com Eventos com a classe EventEmitter]()
 
 - **Módulo 02: Manipulação de Listas**
     * [Aula 2.1 - ]()
