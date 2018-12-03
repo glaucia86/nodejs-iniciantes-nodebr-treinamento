@@ -12,6 +12,7 @@
  */
 
 const util = require('util');
+// eslint-disable-next-line no-use-before-define
 const obterEnderecoAsync = util.promisify(obterEndereco);
 
 function obterUsuario() {
@@ -37,16 +38,18 @@ function obterTelefone(idUsuario) {
   }));
 }
 
-function obterEndereco(idUsuario, callback) {
-  setTimeout(() => {
-    return callback(null, {
-      rua: 'Jorge Yunes',
-      numero: 181,
-      complemento: 103,
-      bairro: 'Recreio dos Bandeirantes',
-      cidade: 'Rio de Janeiro',
-    });
-  }, 2000);
+function obterEndereco(idUsuario) {
+  return new Promise(((resolve, reject) => {
+    setTimeout(() => {
+      return resolve({
+        rua: 'Jorge Yunes',
+        numero: 181,
+        complemento: 103,
+        bairro: 'Recreio dos Bandeirantes',
+        cidade: 'Rio de Janeiro',
+      });
+    }, 2000);
+  }));
 }
 
 const usuarioPromise = obterUsuario();

@@ -29,7 +29,7 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
   - :white_check_mark: [Aula 1.1 - Entendendo o ciclo de vida de aplicações Javascript]()
   - :white_check_mark: [Aula 1.2 - Trabalhando com Callbacks](https://bit.ly/2BLm23w)
   - :white_check_mark: [Aula 1.3 - Introdução a Promises]()
-  - :white_check_mark: [Aula 1.4 - Refatorando Callbacks para Promises]()
+  - :white_check_mark: [Aula 1.4 - Refatorando Callbacks para Promises](https://bit.ly/2Pgv4cj)
   - :white_check_mark: [Aula 1.5 - Introdução a resolução de Promises com async/await]()
   - :white_check_mark: [Aula 1.6 - Resolução de promises com Async/Await]()
   - :white_check_mark: [Aula 1.7 - Trabalhando com Eventos com a classe EventEmitter]()
