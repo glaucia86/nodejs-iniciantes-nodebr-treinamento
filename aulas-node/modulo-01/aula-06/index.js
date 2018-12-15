@@ -80,3 +80,7 @@ async function main() {
 
 main();
 
+/**
+ *
+ * Fazendo teste de commit em dia anterior!
+ */
