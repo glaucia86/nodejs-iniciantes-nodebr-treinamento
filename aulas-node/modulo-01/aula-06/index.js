@@ -14,7 +14,7 @@
  */
 
 function obterUsuario() {
-  return new Promise(((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       return resolve({
         id: 1,
@@ -22,22 +22,22 @@ function obterUsuario() {
         dataNascimento: new Date(),
       });
     }, 1000);
-  }));
+  });
 }
 
 function obterTelefone(idUsuario) {
-  return new Promise(((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       return resolve({
         telefoneCelular: '99999-9999',
         ddd: 21,
       });
     }, 2000);
-  }));
+  });
 }
 
 function obterEndereco(idUsuario) {
-  return new Promise(((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       return resolve({
         rua: 'Jorge Yunes',
@@ -47,7 +47,7 @@ function obterEndereco(idUsuario) {
         cidade: 'Rio de Janeiro',
       });
     }, 2000);
-  }));
+  });
 }
 
 async function main() {
@@ -68,7 +68,9 @@ async function main() {
     console.log(`
     Nome: ${usuario.nome}
     Telefone: (${telefone.ddd}) ${telefone.telefoneCelular}
-    Endereço: ${endereco.rua}, ${endereco.numero}/${endereco.complemento} - ${endereco.bairro}, ${endereco.cidade}
+    Endereço: ${endereco.rua}, ${endereco.numero}/${endereco.complemento} - ${
+  endereco.bairro
+}, ${endereco.cidade}
     `);
     console.timeEnd('medida-promise');
   } catch (error) {
@@ -79,3 +81,5 @@ async function main() {
 main();
 
 // testing commit....
+// será q agora funciona?!
+// vamos testar!
