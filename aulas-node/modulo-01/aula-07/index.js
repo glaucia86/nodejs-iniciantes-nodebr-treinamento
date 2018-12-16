@@ -7,7 +7,7 @@
  *
  */
 
-import EventEmitter from 'events';
+const EventEmitter = require('events');
 
 class Emissor extends EventEmitter {}
 
