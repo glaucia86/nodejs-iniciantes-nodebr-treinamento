@@ -79,7 +79,3 @@ async function main() {
 }
 
 main();
-
-// testing commit....
-// será q agora funciona?!
-// vamos testar!
