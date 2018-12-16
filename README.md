@@ -77,9 +77,7 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 - **Módulo 12: Próximos Passos**
   - [Aula 12.1 - ]()
 
-<<<<<<< HEAD
 
-=======
 **Documentação em Desenvolvimento**
 
-> > > > > > > 478ea2c72a3479af66b87da4ea852bc8fc06e91a
+
