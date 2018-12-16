@@ -1,15 +1,15 @@
 /**
+ *
  * File: index.js
  * Description: Demonstração de como fazer uso de de Events
  * Date: 12/02/2018
  * Author: Glaucia Lemos
+ *
  */
 
-const EventEmitter = require('events');
+import EventEmitter from 'events';
 
-class Emissor extends EventEmitter {
-
-}
+class Emissor extends EventEmitter {}
 
 const emissor = new Emissor();
 const evento = 'usuario:click';
@@ -17,7 +17,6 @@ const evento = 'usuario:click';
 emissor.on(evento, (click) => {
   console.log('1 - Clicou', click);
 });
-
 
 /* emissor.emit(evento, 'Barra de Rolagem');
 emissor.emit(evento, 'Clicou Botão ok');
