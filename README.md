@@ -36,7 +36,11 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 
 - **Módulo 02: Manipulação de Listas**
 
-  - [Aula 2.1 - ]()
+  - :white_check_mark:[Aula 2.1 - Introdução ao Capítulo]()
+  - :white_check_mark:[Aula 2.2 - Manipulando listas com For/ForIn/ForOf]()
+  - [Aula 2.3 - Criando nosso proprio Array.Map]()
+  - [Aula 2.4 - Criando nosso proprio Array.Filter]()
+  - [Aula 2.5 - Criando nosso proprio Array.Reduce]()
 
 - **Módulo 03: Introdução a Desenvolvimento de Testes Automatizados**
 
@@ -77,7 +81,4 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 - **Módulo 12: Próximos Passos**
   - [Aula 12.1 - ]()
 
-
 **Documentação em Desenvolvimento**
-
-
