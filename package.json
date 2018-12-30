@@ -18,6 +18,9 @@
     "url": "https://github.com/glaucia86/nodejs-iniciantes-nodebr-treinamento/issues"
   },
   "homepage": "https://github.com/glaucia86/nodejs-iniciantes-nodebr-treinamento#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
