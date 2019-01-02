@@ -10,6 +10,7 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 - Node.Js
 - Npm
 - JWT
+- Uso de Bancos Relacionais & Não Relacionais;
 - Hapi.js
 - Entre outros recursos;
 
