@@ -8,7 +8,7 @@
 const service = require('./service');
 
 // Aqui uma demonstraçao de como o Map funciona por debaixo dos panos:
-Array.prototype.meuMap = function (callback) {
+/* Array.prototype.meuMap = function (callback) {
   const novoArrayMapeado = [];
   for (let index = 0; index <= this.length - 1; index++) {
     const resultado = callback(this[index], index);
@@ -16,7 +16,7 @@ Array.prototype.meuMap = function (callback) {
   }
 
   return novoArrayMapeado;
-}
+} */
 
 async function main() {
   try {
@@ -25,10 +25,10 @@ async function main() {
       return pessoa.name;
     }) */
     // Aqui uma maneira mais elegante de usar o 'map':
-    //const names = results.results.map((pessoa) => pessoa.name)
-    const names = results.results.meuMap((pessoa, index) => {
+    const names = results.results.map((pessoa) => pessoa.name)
+    /* const names = results.results.meuMap((pessoa, index) => {
       return `[${index}]${pessoa.name}`;
-    });
+    }); */
 
     console.log('Names....: ', names);
   } catch (error) {
