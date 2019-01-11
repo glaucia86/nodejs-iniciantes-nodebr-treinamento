@@ -1,7 +1,7 @@
 /**
  * File: index.js
  * Description: Demonstração de como fazer uso de callbacks em funções
- * Date: 12/02/2018
+ * Date: 02/12/2018
  * Author: Glaucia Lemos
  */
 
