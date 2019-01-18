@@ -1,7 +1,7 @@
 /**
  * File: manipularListas.js
  * Description: Demo sobre manipulação de listas usando: for/ForIn/ForOut
- * Date: 12/27/2018
+ * Date: 27/12/2018
  * Author: Glaucia Lemos
  */
 
