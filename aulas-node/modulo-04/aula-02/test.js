@@ -7,20 +7,20 @@
 
 const {
   deepEqual,
-  ok
+  ok,
 } = require('assert');
 
 const DEFAULT_ITEM_CADASTRAR = {
   nome: 'Flash',
   poder: 'Speed',
-  id: 1
-}
+  id: 1,
+};
 
 const DEFAULT_ITEM_ATUALIZAR = {
   nome: 'Lanterna Verde',
   poder: 'Anel',
-  id: 2
-}
+  id: 2,
+};
 
 const database = require('./database');
 
@@ -30,7 +30,7 @@ describe('Testes de Herois', () => {
     await database.cadastrar(DEFAULT_ITEM_ATUALIZAR);
   });
 
-  it('Devo Pesquisar um Herói Usando Arquivos', async() => {
+  it('Devo Pesquisar um Herói Usando Arquivos', async () => {
     const expected = DEFAULT_ITEM_CADASTRAR;
     // O uso de '[]' aqui é com a finalidade de retornar o primeiro item da lista do array (destructor)
     // Mais infos aqui: https://dev.to/sarah_chima/destructuring-assignment---arrays-16f
@@ -58,13 +58,13 @@ describe('Testes de Herois', () => {
     const expected = {
       ...DEFAULT_ITEM_ATUALIZAR,
       nome: 'Batman',
-      poder: 'Dinheiro'
-    }
+      poder: 'Dinheiro',
+    };
 
     const novoDado = {
       nome: 'Batman',
-      poder: 'Dinheiro'
-    }
+      poder: 'Dinheiro',
+    };
 
     await database.atualizar(DEFAULT_ITEM_ATUALIZAR.id, novoDado);
     const [results] = await database.listar(DEFAULT_ITEM_ATUALIZAR.id);

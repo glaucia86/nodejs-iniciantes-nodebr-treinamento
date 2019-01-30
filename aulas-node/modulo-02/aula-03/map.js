@@ -20,19 +20,19 @@ const service = require('./service');
 
 async function main() {
   try {
-    const results = await service.obterPessoas(`a`);
+    const results = await service.obterPessoas('a');
     /* const names = results.results.map((pessoa) => {
       return pessoa.name;
     }) */
     // Aqui uma maneira mais elegante de usar o 'map':
-    const names = results.results.map((pessoa) => pessoa.name)
+    const names = results.results.map(pessoa => pessoa.name);
     /* const names = results.results.meuMap((pessoa, index) => {
       return `[${index}]${pessoa.name}`;
     }); */
 
     console.log('Names....: ', names);
   } catch (error) {
-    console.log(`Erro na execução do código...: `, error);
+    console.log('Erro na execução do código...: ', error);
   }
 }
 

@@ -14,16 +14,16 @@ async function main() {
     const names = [];
 
     console.time('for');
-    for (let i = 0; i <= resultado.results.length - 1; i++) {
+    for (let i = 0; i <= resultado.results.length - 1; i += 1) {
       const pessoa = resultado.results[i];
       names.push(pessoa.name);
     }
     console.timeEnd('for');
 
-    console.time('forIn')
-    for (let i in resultado.results) {
+    console.time('forIn');
+    for (const i in resultado.results) {
       const pessoa = resultado.results[i];
-      names.push(pessoa.name)
+      names.push(pessoa.name);
     }
     console.timeEnd('forIn');
 
@@ -33,10 +33,10 @@ async function main() {
     }
     console.timeEnd('forOf');
 
-    console.log(`names`, names);
+    console.log('names', names);
   } catch (error) {
-    console.log(`Erro ao executar a api`, error);
+    console.log('Erro ao executar a api', error);
   }
 }
 
-main()
+main();

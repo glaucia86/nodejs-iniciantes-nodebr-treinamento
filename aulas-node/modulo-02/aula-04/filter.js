@@ -6,14 +6,14 @@
  */
 
 const {
-  obterPessoas
+  obterPessoas,
 } = require('./service');
 
 async function main() {
   try {
     const {
-      results
-    } = await obterPessoas(`a`);
+      results,
+    } = await obterPessoas('a');
 
     const familiaLars = results.filter((item) => {
       /**
@@ -23,15 +23,14 @@ async function main() {
        * se nao encontrar = -1
        * encontrou = posicaoNoArray
        */
-      const result = item.name.toLowerCase().indexOf(`lars`) !== -1;
+      const result = item.name.toLowerCase().indexOf('lars') !== -1;
       return result;
     });
 
-    const names = familiaLars.map((pessoa) => pessoa.name);
+    const names = familiaLars.map(pessoa => pessoa.name);
     console.log(names);
-
   } catch (error) {
-    console.log(`Erro na execucao do código...: `, error);
+    console.log('Erro na execucao do código...: ', error);
   }
 }
 

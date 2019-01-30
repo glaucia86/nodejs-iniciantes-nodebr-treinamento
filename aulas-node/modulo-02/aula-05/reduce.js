@@ -6,26 +6,24 @@
  */
 
 const {
-  obterPessoas
-} = require('./service')
+  obterPessoas,
+} = require('./service');
 
 async function main() {
   try {
     const {
-      results
-    } = await obterPessoas(`a`);
+      results,
+    } = await obterPessoas('a');
 
+    // eslint-disable-next-line radix
     const pesos = results.map(item => parseInt(item.height));
     console.log('Pesos...: ', pesos);
 
-    const total = pesos.reduce((anterior, proximo) => {
-      return anterior + proximo;
-    })
+    const total = pesos.reduce((anterior, proximo) => anterior + proximo);
 
     console.log('Total....: ', total);
-
   } catch (error) {
-    console.log(`Erro na execucao do código`, error);
+    console.log('Erro na execucao do código', error);
   }
 }
 

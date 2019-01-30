@@ -12,34 +12,28 @@
  */
 
 function obterUsuario(callback) {
-  setTimeout(() => {
-    return callback(null, {
-      id: 1,
-      nome: 'Glaucia Lemos',
-      dataNascimento: new Date(),
-    });
-  }, 1000);
+  setTimeout(() => callback(null, {
+    id: 1,
+    nome: 'Glaucia Lemos',
+    dataNascimento: new Date(),
+  }), 1000);
 }
 
 function obterTelefone(idUsuario, callback) {
-  setTimeout(() => {
-    return callback(null, {
-      telefone: '99999-9999',
-      ddd: 21,
-    });
-  }, 2000);
+  setTimeout(() => callback(null, {
+    telefone: '99999-9999',
+    ddd: 21,
+  }), 2000);
 }
 
 function obterEndereco(idUsuario, callback) {
-  setTimeout(() => {
-    return callback(null, {
-      rua: 'Jorge Yunes',
-      numero: 181,
-      complemento: 103,
-      bairro: 'Recreio dos Bandeirantes',
-      cidade: 'Rio de Janeiro',
-    });
-  }, 2000);
+  setTimeout(() => callback(null, {
+    rua: 'Jorge Yunes',
+    numero: 181,
+    complemento: 103,
+    bairro: 'Recreio dos Bandeirantes',
+    cidade: 'Rio de Janeiro',
+  }), 2000);
 }
 
 function resolverUsuario(error, usuario) {

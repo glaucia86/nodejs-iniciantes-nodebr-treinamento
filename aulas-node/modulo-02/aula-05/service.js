@@ -6,17 +6,17 @@
  */
 
 const axios = require('axios');
-const URL = `https://swapi.co/api/people`;
+const URL = 'https://swapi.co/api/people';
 
 async function obterPessoas(nome) {
-  const url = `${URL}/?search=${nome}&format=json`
+  const url = `${URL}/?search=${nome}&format=json`;
   const response = await axios.get(url);
-  return response.data
+  return response.data;
 }
 
 module.exports = {
-  obterPessoas
-}
+  obterPessoas,
+};
 
 // Bloco criado para testar o retorno da api: swapi
 /* obterPessoas('r2')
@@ -25,4 +25,4 @@ module.exports = {
   })
   .catch(function (error) {
     console.log('Erro ao retornar pessoa!', error)
-  });*/
+  }); */

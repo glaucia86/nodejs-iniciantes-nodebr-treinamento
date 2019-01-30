@@ -19,7 +19,7 @@ class Database {
     this.NOME_ARQUIVO = 'herois.json';
   }
 
-  //Método responsável por retornar os dados da aplicação:
+  // Método responsável por retornar os dados da aplicação:
   async obterDadosArquivo() {
     const arquivo = await readFileAsync(this.NOME_ARQUIVO, 'utf8');
 
@@ -40,10 +40,10 @@ class Database {
     const id = heroi.id <= 2 ? heroi.id : Date.now();
 
     // Aqui eu vou concatenar as informações do nosso objeto:
-    const heroiComId = { id, ...heroi }
+    const heroiComId = { id, ...heroi };
 
     // Aqui será a junção final de dados + heroiComId = para gerar um único objeto:
-    const dadosFinal = [ ...dados, heroiComId ];
+    const dadosFinal = [...dados, heroiComId];
 
     const resultado = await this.escreverArquivo(dadosFinal);
 
@@ -91,17 +91,16 @@ class Database {
     const atual = dados[indice];
     const objetoAtualizar = {
       ...atual,
-      ...modificacoes
-    }
+      ...modificacoes,
+    };
 
     dados.splice(indice, 1);
 
     return await this.escreverArquivo([
       ...dados,
-      objetoAtualizar
+      objetoAtualizar,
     ]);
   }
 }
 
 module.exports = new Database();
-

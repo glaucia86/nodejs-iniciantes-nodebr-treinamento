@@ -17,65 +17,53 @@ const obterEnderecoAsync = util.promisify(obterEndereco);
 
 function obterUsuario() {
   return new Promise(((resolve, reject) => {
-    setTimeout(() => {
-      return resolve({
-        id: 1,
-        nome: 'Glaucia Lemos',
-        dataNascimento: new Date(),
-      });
-    }, 1000);
+    setTimeout(() => resolve({
+      id: 1,
+      nome: 'Glaucia Lemos',
+      dataNascimento: new Date(),
+    }), 1000);
   }));
 }
 
 function obterTelefone(idUsuario) {
   return new Promise(((resolve, reject) => {
-    setTimeout(() => {
-      return resolve({
-        telefoneCelular: '99999-9999',
-        ddd: 21,
-      });
-    }, 2000);
+    setTimeout(() => resolve({
+      telefoneCelular: '99999-9999',
+      ddd: 21,
+    }), 2000);
   }));
 }
 
 function obterEndereco(idUsuario) {
   return new Promise(((resolve, reject) => {
-    setTimeout(() => {
-      return resolve({
-        rua: 'Jorge Yunes',
-        numero: 181,
-        complemento: 103,
-        bairro: 'Recreio dos Bandeirantes',
-        cidade: 'Rio de Janeiro',
-      });
-    }, 2000);
+    setTimeout(() => resolve({
+      rua: 'Jorge Yunes',
+      numero: 181,
+      complemento: 103,
+      bairro: 'Recreio dos Bandeirantes',
+      cidade: 'Rio de Janeiro',
+    }), 2000);
   }));
 }
 
 const usuarioPromise = obterUsuario();
 
 usuarioPromise
-  .then((usuario) => {
-    return obterTelefone(usuario.id)
-      .then((result) => {
-        return {
-          usuario: {
-            nome: usuario.nome,
-            id: usuario.id,
-          },
-          telefone: result,
-        };
-      });
-  })
+  .then(usuario => obterTelefone(usuario.id)
+    .then(result => ({
+      usuario: {
+        nome: usuario.nome,
+        id: usuario.id,
+      },
+      telefone: result,
+    })))
   .then((resultado) => {
     const endereco = obterEnderecoAsync(resultado.usuario.id);
-    return endereco.then((result) => {
-      return {
-        usuario: resultado.usuario,
-        telefone: resultado.telefone,
-        endereco: result,
-      };
-    });
+    return endereco.then(result => ({
+      usuario: resultado.usuario,
+      telefone: resultado.telefone,
+      endereco: result,
+    }));
   })
   .then((resultado) => {
     console.log(`
