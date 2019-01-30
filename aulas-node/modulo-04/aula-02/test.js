@@ -16,10 +16,21 @@ const DEFAULT_ITEM_CADASTRAR = {
   id: 1
 }
 
+const database = require('./database');
+
 describe('Testes de Herois', () => {
-  it('Deve cadastrar um herói usando arquivos', async () => {
+  it('Devo Pesquisar um Herói Usando Arquivos', async() => {
+    const expected = DEFAULT_ITEM_CADASTRAR;
+    // O uso de '[]' aqui é com a finalidade de retornar o primeiro item da lista do array (destructor)
+    // Mais infos aqui: https://dev.to/sarah_chima/destructuring-assignment---arrays-16f
+    const [results] = await database.listar(expected.id);
+
+    deepEqual(results, expected);
+  });
+
+  /*it('Deve cadastrar um herói usando arquivos', async () => {
     const expected = DEFAULT_ITEM_CADASTRAR;
 
     ok(null, expected);
-  });
+  });*/
 });
