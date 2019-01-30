@@ -57,6 +57,26 @@ class Database {
 
     return dadosFiltrados;
   }
+
+  // Método responsável por remover um determinado herói pelo 'Id':
+  async remover(id) {
+    // se não for encontrado o id então...
+    if (!id) {
+      return await this.escreverArquivo();
+    }
+
+    const dados = await this.obterDadosArquivo();
+    const indice = dados.findIndex(item => item.id === parseInt(id));
+
+    // Caso o indice não seja encontrado então...
+    if(indice === -1) {
+      throw Error('O herói informado não existe!');
+    }
+
+    dados.splice(indice, 1);
+
+    return await this.escreverArquivo(dados);
+  }
 }
 
 module.exports = new Database();

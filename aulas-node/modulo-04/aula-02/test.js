@@ -34,9 +34,16 @@ describe('Testes de Herois', () => {
 
   it('Devo Cadastrar um Herói Usando Arquivos', async () => {
     const expected = DEFAULT_ITEM_CADASTRAR;
-    // const results = await database.cadastrar(DEFAULT_ITEM_CADASTRAR);
+    const results = await database.cadastrar(DEFAULT_ITEM_CADASTRAR);
     const [actual] = await database.listar(DEFAULT_ITEM_CADASTRAR.id);
 
     deepEqual(actual, expected);
+  });
+
+  it('Devo Remover um Herói por Id', async () => {
+    const expected = true;
+    const results = await database.remover(DEFAULT_ITEM_CADASTRAR.id);
+
+    deepEqual(results, expected);
   });
 });
