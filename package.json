@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
-    "lint": "eslint ./aulas-node --fix",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
     "test": "mocha"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/glaucia86/nodejs-iniciantes-nodebr-treinamento#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "eslint-friendly-formatter": "^4.0.1",
     "nock": "^10.0.6"
   },
   "devDependencies": {
