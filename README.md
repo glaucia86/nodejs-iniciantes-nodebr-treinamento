@@ -45,13 +45,13 @@ Repositório responsável pelos códigos desenvolvidos do treinamento do site: *
 
 - **Módulo 03: Introdução a Desenvolvimento de Testes Automatizados**
 
-  - [Aula 3.1 - Introdução a desenvolvimento de testes automatizados em Javascript]()
-  - [Aula 3.2 - Ambiente e configuração do ciclo de testes](http://bit.ly/2RwpRTK)
+  - :white_check_mark:[Aula 3.1 - Introdução a desenvolvimento de testes automatizados em Javascript]()
+  - :white_check_mark:[Aula 3.2 - Ambiente e configuração do ciclo de testes](http://bit.ly/2RwpRTK)
 
 * **Módulo 04: Node.js Além da Web - Criando Ferramentas de Linha de Commando**
 
-  - [Aula 4.1 - Introdução ao Capítulo]()
-  - [Aula 4.2 - Manipulando arquivos - READ]()
+  - :white_check_mark:[Aula 4.1 - Introdução ao Capítulo]()
+  - :white_check_mark:[Aula 4.2 - Manipulando arquivos - READ]()
   - [Aula 4.3 - Manipulando arquivos - CREATE]()
   - [Aula 4.4 - Manipulando arquivos - DELETE]()
   - [Aula 4.5 - Manipulando arquivos - UPDATE]()

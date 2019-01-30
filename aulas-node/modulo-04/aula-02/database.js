@@ -5,9 +5,11 @@
  * Author: Glaucia Lemos
  */
 
-const { readFile } = require('fs');
+const { readFile, writeFile } = require('fs');
 const { promisify } = require('util');
+
 const readFileAsync = promisify(readFile);
+const writeFileAsync = promisify(writeFile);
 
 // Outra forma de obter dados de um determinado arquivo (.json, .csv, .txt)
 // const dadosJson = require('./herois.json');
@@ -26,8 +28,26 @@ class Database {
   }
 
   // Método responsável por adicionar um novo dado na aplicação:
-  escreverArquivo() {
+  async escreverArquivo(dados) {
+    await writeFileAsync(this.NOME_ARQUIVO, JSON.stringify(dados));
 
+    return true;
+  }
+
+  // Método responsável por Cadastrar um novo Herói na aplicação:
+  async cadastrar(heroi) {
+    const dados = await this.obterDadosArquivo();
+    const id = heroi.id <= 2 ? heroi.id : Date.now();
+
+    // Aqui eu vou concatenar as informações do nosso objeto:
+    const heroiComId = { id, ...heroi }
+
+    // Aqui será a junção final de dados + heroiComId = para gerar um único objeto:
+    const dadosFinal = [ ...dados, heroiComId ];
+
+    const resultado = await this.escreverArquivo(dadosFinal);
+
+    return resultado;
   }
 
   // Método responsável por listar os dadas da aplicação:
