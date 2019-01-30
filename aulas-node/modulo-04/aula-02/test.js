@@ -16,11 +16,18 @@ const DEFAULT_ITEM_CADASTRAR = {
   id: 1
 }
 
+const DEFAULT_ITEM_ATUALIZAR = {
+  nome: 'Lanterna Verde',
+  poder: 'Anel',
+  id: 2
+}
+
 const database = require('./database');
 
 describe('Testes de Herois', () => {
   before(async () => {
     await database.cadastrar(DEFAULT_ITEM_CADASTRAR);
+    await database.cadastrar(DEFAULT_ITEM_ATUALIZAR);
   });
 
   it('Devo Pesquisar um Herói Usando Arquivos', async() => {
@@ -43,6 +50,24 @@ describe('Testes de Herois', () => {
   it('Devo Remover um Herói por Id', async () => {
     const expected = true;
     const results = await database.remover(DEFAULT_ITEM_CADASTRAR.id);
+
+    deepEqual(results, expected);
+  });
+
+  it('Devo Atualizar um Herói por Id', async () => {
+    const expected = {
+      ...DEFAULT_ITEM_ATUALIZAR,
+      nome: 'Batman',
+      poder: 'Dinheiro'
+    }
+
+    const novoDado = {
+      nome: 'Batman',
+      poder: 'Dinheiro'
+    }
+
+    await database.atualizar(DEFAULT_ITEM_ATUALIZAR.id, novoDado);
+    const [results] = await database.listar(DEFAULT_ITEM_ATUALIZAR.id);
 
     deepEqual(results, expected);
   });
